@@ -1,0 +1,110 @@
+html,
+body {
+    text-align: center;
+    background-image: url(assets/images/Bitcoin-safe.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-weight: bold;
+}
+
+@media (max-width: 996px) {
+    #navbarContent {
+        display: inline-block !important;
+    }
+}
+
+
+.formBox {
+    display: flex !important;
+}
+
+
+.navbar {
+    background-color: rgba(169, 169, 169, 0.5);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+#headerBox {
+    background: linear-gradient(to right, #ffc107, #ff6600);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.card {
+    border: 1px solid;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px;
+    display: inline-block;
+    background-color: rgba(169, 169, 169, 0.5);
+    overflow: auto;
+}
+
+.more-info {
+    border: 1px solid;
+    /* display: none; */
+}
+
+.hidden {
+    display: none;
+}
+
+#aboutDiv {
+    background: white;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-color: white(0, 0, 0, 0.61);
+    backdrop-filter: blur(5px);
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#aboutDiv img {
+    width: 250px;
+    height: 300px;
+    float: right;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+#container {
+    padding: 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.active {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #ffc107;
+}
+
+.errorDivReplacement {
+    color: white;
+    margin: 50px;
+}
+
+.spinner {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    object-fit: contain;
+    width: 50%; 
+    height: 50%;
+    border: none; 
+    margin: 0 auto;
+  }
+
+  #noReports {
+    color: white;
+  }
