@@ -266,7 +266,7 @@
             <img src="assets/images/myPhoto.jpeg">
         </div>
         <br><br>
-        <div>
+        <div id="aboutHeader">
         <h3 id="headDiv">Hi, my name is Molly.</h3>
         </div>
         <br>
