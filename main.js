@@ -317,7 +317,7 @@
 
     // clear the local storage after 2 minutes;
     function clearSpecificItemPeriodically(itemKey) {
-        setInterval(() => {
+        setTimeout(() => {
             localStorage.removeItem(itemKey);
         }, 2 * 60 * 1000);
     }
